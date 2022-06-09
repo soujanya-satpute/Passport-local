@@ -1,0 +1,48 @@
+ ----> Getting Email and Password from user 
+    1. Start Express app ✅
+    2. Connect to the Database in Config file import connection in index.js ✅
+    3. bodyParser Declaration and defination can use express inbuilt middleware too ✅
+    4. Declaring Sessions And Session Store => Connecting Session Store to mongodb ✅
+    5.define user model ✅
+    6.check if request things are working ✅
+    7. add cors ✅
+    --->
+        Routes 
+            SignUp 
+                1. verify Email with regex✅
+                2. set password length to 7 ✅
+                3. increase fontsize for input box ✅
+                4. verify and save data to model ✅
+                5. Add session stuff ✅
+            Login
+                1. Passport Local Strategy ✅
+                2. compare bcryptjs funtion ✅
+            LogOut
+                1. Call logout funtion ✅
+
+
+
+What is Ideal Structure I want for the file ->
+    routes folder -> userRoutes.js
+    config Folder -> dbConnection.js Config passport.js Config
+    models Folder -> userModel.js
+    controllers Folder -> userControllers.js
+    root -> index.js
+
+
+
+List of User Funtionality Or userModel Fields I need to Add ->
+    1.Name
+    2.LastName
+    3.Country
+    4.No of books read
+    5.Email
+    6.Contact number
+    7.sessions to track users reading Habits and giving them reports about it.
+    8.Name of books completed 
+    9. Current read
+    10.IsHavingPremium -> 1 book for 2 months  -> How to implement that funtionality
+    11. Reading Habits Analyzing
+    12. Levels of certificates and what is system for that
+    13. IsAuthor
+    14. IsAdmin

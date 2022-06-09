@@ -1,0 +1,14 @@
+1. HomePage
+2.Login / Auth
+3. Can Preview some part of all books
+    ----->  Introduction  ---> Allow to preview for all books
+3. If user have not premium account then user can access only on book for 2 months
+4. if user have premium account then they can access unlimited resources
+
+Roles = [
+    visitor,
+    user,
+    PremiumUser,
+    Author,
+    Admin,
+]
